@@ -37,32 +37,21 @@ Dotenv – to manage environment variables
 
 📦 Setup Instructions (Local Development)
 1️⃣ Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/secure-task-manager.git
-cd secure-task-manager
+git clone https://github.com/yourusername/task-manager.git
+cd task-manager
 2️⃣ Configure Environment Variables
 Update the .env files in both the server and client directories according to your local or deployment needs.
 
 3️⃣ Start the App
 Open two terminal windows:
-
 🖥 Server (Backend)
-bash
-Copy
-Edit
 cd server
 npm install
 npm start
 💻 Client (Frontend)
-bash
-Copy
-Edit
 cd client
 npm install
 npm run dev
 📝 Notes
 Make sure MongoDB is running locally or configure it to connect to your cloud database (e.g., MongoDB Atlas).
-
 Adjust .env files to include your own secret keys and database URIs.
